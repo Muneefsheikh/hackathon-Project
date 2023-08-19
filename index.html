@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Post Management Web App</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <nav class="nav">
+
+    <div class="logotext">Personal Blogging App</div>
+    <div><a class="navlogin" href="morning.html">Logout</a></div>
+  </nav>
+  <div class="Dashboard">
+    <h1 class="Dashtext">Dashboard</h1>
+  </div>
+
+  <div class="container">
+    <div class="form">
+      <input class="newpost" type="text" id="postInput" placeholder="Enter your post">
+    </div>
+    <button onclick="createPost()" class="pb">Publish blog</button>
+ </div>
+    
+
+    <div class="posts" id="postsList">
+      <!-- Posts will be displayed here -->
+   
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

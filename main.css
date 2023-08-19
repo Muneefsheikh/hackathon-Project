@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+  }
+  
+  h1{
+    text-align: center ;
+    text-decoration: none ;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: black;
+  }
+  .container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    margin-bottom:1em ;
+    border-radius: 10px;
+    padding-right: -10em;
+  }
+  
+  .form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .posts {
+    border: 1px solid #111111;
+    padding: 30px;
+    border-radius: 10%;
+    background-color: white;
+
+
+  }
+  
+  .post {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: seagreen;
+    border: 1px solid #f6f3f3;
+    padding-inline: 10em;
+    border-radius: 20em;
+  }
+button{
+    background-color: rgb(133, 131, 131);
+}
+.newpost{
+    text-align: center;
+}
+
+.nav{
+  background-color: #9ea6ff;
+}
+.navlogin{
+margin-left : 63em ;
+color: #620000;
+padding-bottom: 2%;
+}
+.logotext{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  padding-top: 1.5%;
+}
+.Dashtext{
+  text-align: left;
+  margin: 0.5em;
+  padding-bottom: 0.3em;
+}
+.Dashboard{
+  background-color: whitesmoke;
+  padding-top: 0.5em;
+}
+.pb{
+  color: rgb(255, 255, 255);
+  background-color:black;
+  margin-right: 38em;
+  margin-bottom: 1em;
+}
+.main{
+  background-color: white;
+  border: 1px solid #000000;
+  border-radius: 1em;
+  padding: 2em;
+}
+.title1{
+  background-color: rgb(144, 124, 124);
+  border: 2px solid #000000;
+  border-radius: 1em;
+  margin: 0.5em;
+  padding-left: 0.4em;
+}
